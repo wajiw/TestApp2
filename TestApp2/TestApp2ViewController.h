@@ -7,9 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LandscapeView.h"
 
-@interface TestApp2ViewController : UIViewController {
+@interface TestApp2ViewController : UIViewController <UIActionSheetDelegate>{
+    IBOutlet UITextField *myText;
+    IBOutlet UISlider   *slide;
+    IBOutlet UIButton *myButton;
+    LandscapeView *landscapeView;
     
 }
+
+@property (nonatomic, retain) IBOutlet UITextField *myText;
+@property (nonatomic, retain) IBOutlet UISlider *slide;
+
+@property (nonatomic, retain) LandscapeView *landscapeView;
+- (IBAction) changeButtonPressed:()sender;
+- (IBAction) sliderValueChanged:(UISlider *)sender;
 
 @end

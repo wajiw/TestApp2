@@ -22,6 +22,8 @@
 		2F8E82EA13E2261B0079F026 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F8E82E813E2261B0079F026 /* InfoPlist.strings */; };
 		2F8E82ED13E2261B0079F026 /* TestApp2Tests.h in Resources */ = {isa = PBXBuildFile; fileRef = 2F8E82EC13E2261B0079F026 /* TestApp2Tests.h */; };
 		2F8E82EF13E2261B0079F026 /* TestApp2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8E82EE13E2261B0079F026 /* TestApp2Tests.m */; };
+		2F8E82FB13E2490F0079F026 /* LandscapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8E82F913E2490F0079F026 /* LandscapeView.m */; };
+		2F8E82FC13E2490F0079F026 /* LandscapeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F8E82FA13E2490F0079F026 /* LandscapeView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +41,25 @@
 		2F8E82BF13E2261A0079F026 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2F8E82C113E2261A0079F026 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2F8E82C313E2261A0079F026 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2F8E82C713E2261A0079F026 /* TestApp2-Info.plist */ = {isa = PBXFileReference; path = "TestApp2-Info.plist"; sourceTree = "<group>"; };
+		2F8E82C713E2261A0079F026 /* TestApp2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestApp2-Info.plist"; sourceTree = "<group>"; };
 		2F8E82C913E2261A0079F026 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2F8E82CB13E2261A0079F026 /* TestApp2-Prefix.pch */ = {isa = PBXFileReference; path = "TestApp2-Prefix.pch"; sourceTree = "<group>"; };
+		2F8E82CB13E2261A0079F026 /* TestApp2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestApp2-Prefix.pch"; sourceTree = "<group>"; };
 		2F8E82CC13E2261A0079F026 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2F8E82CE13E2261A0079F026 /* TestApp2AppDelegate.h */ = {isa = PBXFileReference; path = TestApp2AppDelegate.h; sourceTree = "<group>"; };
+		2F8E82CE13E2261A0079F026 /* TestApp2AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestApp2AppDelegate.h; sourceTree = "<group>"; };
 		2F8E82CF13E2261A0079F026 /* TestApp2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestApp2AppDelegate.m; sourceTree = "<group>"; };
 		2F8E82D213E2261A0079F026 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		2F8E82D413E2261A0079F026 /* TestApp2ViewController.h */ = {isa = PBXFileReference; path = TestApp2ViewController.h; sourceTree = "<group>"; };
+		2F8E82D413E2261A0079F026 /* TestApp2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestApp2ViewController.h; sourceTree = "<group>"; };
 		2F8E82D513E2261A0079F026 /* TestApp2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestApp2ViewController.m; sourceTree = "<group>"; };
 		2F8E82D813E2261A0079F026 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TestApp2ViewController.xib; sourceTree = "<group>"; };
 		2F8E82DF13E2261B0079F026 /* TestApp2Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestApp2Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F8E82E713E2261B0079F026 /* TestApp2Tests-Info.plist */ = {isa = PBXFileReference; path = "TestApp2Tests-Info.plist"; sourceTree = "<group>"; };
+		2F8E82E713E2261B0079F026 /* TestApp2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestApp2Tests-Info.plist"; sourceTree = "<group>"; };
 		2F8E82E913E2261B0079F026 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2F8E82EB13E2261B0079F026 /* TestApp2Tests-Prefix.pch */ = {isa = PBXFileReference; path = "TestApp2Tests-Prefix.pch"; sourceTree = "<group>"; };
+		2F8E82EB13E2261B0079F026 /* TestApp2Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestApp2Tests-Prefix.pch"; sourceTree = "<group>"; };
 		2F8E82EC13E2261B0079F026 /* TestApp2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestApp2Tests.h; sourceTree = "<group>"; };
 		2F8E82EE13E2261B0079F026 /* TestApp2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestApp2Tests.m; sourceTree = "<group>"; };
+		2F8E82F813E2490F0079F026 /* LandscapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandscapeView.h; sourceTree = "<group>"; };
+		2F8E82F913E2490F0079F026 /* LandscapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandscapeView.m; sourceTree = "<group>"; };
+		2F8E82FA13E2490F0079F026 /* LandscapeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandscapeView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +123,9 @@
 				2F8E82D113E2261A0079F026 /* MainWindow.xib */,
 				2F8E82D413E2261A0079F026 /* TestApp2ViewController.h */,
 				2F8E82D513E2261A0079F026 /* TestApp2ViewController.m */,
+				2F8E82F813E2490F0079F026 /* LandscapeView.h */,
+				2F8E82F913E2490F0079F026 /* LandscapeView.m */,
+				2F8E82FA13E2490F0079F026 /* LandscapeView.xib */,
 				2F8E82D713E2261A0079F026 /* TestApp2ViewController.xib */,
 				2F8E82C613E2261A0079F026 /* Supporting Files */,
 			);
@@ -225,6 +233,7 @@
 				2F8E82CA13E2261A0079F026 /* InfoPlist.strings in Resources */,
 				2F8E82D313E2261A0079F026 /* MainWindow.xib in Resources */,
 				2F8E82D913E2261A0079F026 /* TestApp2ViewController.xib in Resources */,
+				2F8E82FC13E2490F0079F026 /* LandscapeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +272,7 @@
 				2F8E82CD13E2261A0079F026 /* main.m in Sources */,
 				2F8E82D013E2261A0079F026 /* TestApp2AppDelegate.m in Sources */,
 				2F8E82D613E2261A0079F026 /* TestApp2ViewController.m in Sources */,
+				2F8E82FB13E2490F0079F026 /* LandscapeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
